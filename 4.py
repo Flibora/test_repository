@@ -4,6 +4,6 @@ x = 15
 y = 24
 
 a = (x + y) / 2
-print( a )
+print(a)
 b = (x * y)**0.5
-print( b ) 
+print(b) 
