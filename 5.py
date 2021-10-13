@@ -3,7 +3,7 @@
 x = 3
 y = 4
 
-a = pow ( x * x + y * y, .5 )
-print ( a )
-b = x * y / 2
-print ( b ) 
+a = (x**2 + y**2)**0.5 )
+print( a )
+b = (x * y) / 2
+print( b ) 
