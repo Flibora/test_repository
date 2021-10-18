@@ -14,4 +14,4 @@ a = len(stroka) // 2
 b = stroka[a]
 print(b)
 if b == stroka[0]:
-    print(stroka[1: -1])
+    print(stroka[1:-1])

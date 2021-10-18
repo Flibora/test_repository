@@ -1,7 +1,6 @@
 # Создать строку равную предпоследнему символу
 # введенно строки.
 
-str = input ()
-len = len(str)
-new_str = str[len - 2]
+str = input()
+new_str = str[- 2]
 print(new_str)

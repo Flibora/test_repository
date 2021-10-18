@@ -3,11 +3,11 @@
 50 - закажут ресторан, если от 20 до 50 -то кафе, а если меньше 20 то отпраздную
 дома. Вывести "ресторан", "кафе", "дом" в зависимости от количества гостей .'''
 
-family = int(input())
+number_family = int(input())
 
-if family >50:
+if number_family  > 50:
     print("закажем ресторан")
-elif 50 <= family >= 20:
+elif (number_family >= 20 and number_family <= 50):
     print("закажем кафе")
 else:
-    print("будем дома") 
+    print("будем дома")

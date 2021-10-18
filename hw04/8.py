@@ -7,6 +7,6 @@
 stroka = input()
 
 if len(stroka) > 10:
-    print( stroka + "!!!")
+    print(stroka + "!!!")
 else:
     print(stroka[1])

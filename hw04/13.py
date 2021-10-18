@@ -4,7 +4,7 @@
 spisok_a = [2, 4, 6, 4, 5]
 
 spisok_b = [None] * 5
-lenght_a =len(spisok_a)
+lenght_a = len(spisok_a)
 
 i = 0
 while i < lenght_a:

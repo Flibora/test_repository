@@ -3,10 +3,10 @@
 
 
 a = [1, 2, 3, 4, 5]
+new_a = [None] * 5
 lenght = len(a)
 i = 0
 while  i < lenght:
-    a[i] *= -2
+    new_a[i] = a[i] * -2
     i += 1
-    if i == lenght:
-        print(a)
+print(new_a)
