@@ -1,5 +1,5 @@
 # Создать строку равную первым пяти символам введенно строки.
 
 str = input()
-new_str = str[ :5]
+new_str = str[:5]
 print(new_str)

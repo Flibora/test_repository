@@ -4,5 +4,5 @@
 с первого, индексы 0,2,4,6....).'''
 
 str = input()
-new_str = str[ 0: : 2]
+new_str = str[0::2]
 print(new_str)

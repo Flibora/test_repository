@@ -5,12 +5,14 @@
 последующее число равно сумме двух предыдущих
 чисел. Пример: 1, 1, 2, 3, 5, 8, 13, 21, 34... )'''
 
-list =[1] * 15
-lenght = len(list)
+spisok =[1, 1]
+lenght = len(spisok)
 
-i = 2
-while i < lenght:
-     list[i] = list[i - 1] + list[i - 2]
-     i += 1
+i = int(input())
+if i <= 2:
+    ptint("недопстимое значение")
+while i > lenght:
+     spisok.append(spisok[-1] + spisok[-2])
+     i -= 1
 
-print(list)
+print(spisok)

@@ -7,7 +7,7 @@ number_family = int(input())
 
 if number_family  > 50:
     print("закажем ресторан")
-elif (number_family >= 20 and number_family <= 50):
+elif 20 <= number_family <= 50:
     print("закажем кафе")
 else:
     print("будем дома")

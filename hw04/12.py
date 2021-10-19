@@ -9,12 +9,11 @@
 
 a = {'test': 'test_value', 'europe': 'eur', 'dollar':
 'usd', 'ruble': 'rub'}
-
-b = a.keys()
 lenght = len(a.keys())
+b = a.keys()
 i = 0
 while i < lenght:
-    dlina = len(a.keys())
-
+    lenght = str(len(a.keys()))
+    b += lenght
     i += 1
 print(a)
