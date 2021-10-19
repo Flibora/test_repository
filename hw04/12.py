@@ -7,13 +7,16 @@
 стары удаляется)'''
 
 
-a = {'test': 'test_value', 'europe': 'eur', 'dollar':
+dict_a = {'test': 'test_value', 'europe': 'eur', 'dollar':
 'usd', 'ruble': 'rub'}
-lenght = len(a.keys())
-b = a.keys()
+kolichestvo= len(dict_a.keys())
+list_key = list(dict_a.keys())
 i = 0
-while i < lenght:
-    lenght = str(len(a.keys()))
-    b += lenght
+while i < kolichestvo:
+    dlina_key = str(len(list_key[i]))
+    new_key = list_key[i] + dlina_key
+    dict_a[new_key] = dict_a[list_key[i]]
+    del dict_a[list_key[i]]
     i += 1
-print(a)
+
+print(dict_a)
